@@ -11,3 +11,4 @@ VOLUME /usr/src/app
 COPY . ./
 
 CMD tail -f /dev/null
+# CMD ["python", "main.py"]
